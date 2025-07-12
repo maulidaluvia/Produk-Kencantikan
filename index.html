@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>luvia maulida 2</title>
+
+<!--favicon-->
+<link rel="shortcut icon" href="./assets/icon/nm.png" type="image/x-icon">
+<!--CSS-->
+<link rel="stylesheet" href="./dist/CSS/Style.CSS"/>
+
+<!-- Jonsuh Hamburger -->
+ <link rel="stylesheet" href="./dist/CSS/hamburgers.css"/>
+
+<!--font poppins-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet"/>
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" 
+    />
+     
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<!-- AOS -->
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+     
+</head>
+<body id="Home">
+<!--header-->  
+<header>
+    <div class="container">
+        <!-- Navbar-->
+         <div class="navbar">
+            <div class="logo">
+                <h1>Beranda</h1>
+            </div>
+            <ul class="menu">
+                <h1>Branda</h1>
+                <h3>Overview</h3>
+                <li>
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#home">Menu</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-house-circle-check"></i>
+                    <a href="#our-house">Produk kami</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-address-card"></i>
+                    <a href="#about">Produk Terlaris</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-gear"></i>
+                    <a href="#services">Layanan</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <a href="#feedback">Penilayan Custumer</a>
+                </li>
+            </ul>
+            <div class="our-app"></div>
+           <i class="fas fa-shopping-cart"></i>
+            <!-- btn hamburger-->
+            <button class="hamburger hamburger--spin" type="button">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
+         </div>
+         <!-- Hero -->
+          <div class="hero">
+            <h1>Beauty Skincare <br>
+                 Product
+                </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Unde,Obcaecati Cumque Vel Natus Placeat Sapiente Assumenda Excepturi Quaerat Modi Ipsam.</p>
+                 <button>Detail Produk Kami </button>
+          </div>           
+    </div>
+</header>
+<!--header-->
+<!-- Our House -->
+ <div class="our-house" id="our-house">
+    <div class="container">
+        <h1 data-aos="fade-up" data-aos-duration="1000">Produk Kami</h1>
+        <p data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./assets/images/SCINCER 1.jpeg" alt="house-img"/>
+                    <div class="house-desc">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <h2>Produk ke 1</h2>
+                        <h4>Rp.200.000</h4>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./assets/images/SCINCER 2.jpeg" alt="house-img"/>
+                    <div class="house-desc">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <h2>Produk ke 2</h2>
+                        <h4>Rp.350.000</h4>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./assets/images/SCINCER WARDAH.jpeg" alt="house-img"/>
+                    <div class="house-desc">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <h2>Produk ke 3</h2>
+                        <h4>Rp.300.000</h4>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./assets/images/HB HI GLOW.jpeg" alt="house-img"/>
+                    <div class="house-desc">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <h2>Produk ke 4</h2>
+                        <h4>Rp.250.000</h4>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./assets/images/LIPSTIK.jpeg" alt="house-img"/>
+                    <div class="house-desc">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <h2>Produk ke 5</h2>
+                        <h4>Rp.150.000</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="btn-our-house">
+            <button>View More</button>
+        </div>
+    </div>
+ </div>
+<!-- Our House -->
+
+<!-- About Us -->
+ <div class="about" id="about">
+    <div class="container">
+        <div class="about-box">
+            <div class="box">
+             <img src="./assets/images/produk terlaris.jpeg" alt="about-img">
+            </div>
+            <div class="box">
+             <h1 data-aos="fade-up" data-aos-duration="1000">Produk Terlaris <br>
+               2025</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+               Quisquam aperiam doloremque pariatur eveniet delectus repellat,
+               nostrum modi sapiente fugiat tempora!</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+               Repellat deserunt earum repellendus impedit quis consectetur!</p>
+            </div>
+        </div>
+    </div>
+ </div>
+<!-- About Us -->
+<!-- Services -->
+ <div class="services" id="services">
+    <div class="container">
+        <h1 data-aos="fade-up" data-aos-duration="1000">Layanan</h1>
+        <p data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        <div class="service-box">
+         <div class="box" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+            <i class="fas fa-star"></i>
+            <h3>Produk Original</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, modi fuga.</p>
+         </div>
+         <div class="box" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+            <i class="fas fa-tag"></i>
+            <h3>Harga Terjangkau</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, quis molestiae.</p>
+         </div>
+         <div class="box" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
+            <i class="fas fa-shopping-cart"></i>
+            <h3>Terjual 10.000</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, dolore sequi.</p>
+         </div>
+        </div>
+    </div>
+ </div>
+<!-- Services -->
+<!-- Recover App -->
+ <div class="recover">
+    <div class="container">
+    <div class="recover-box">
+    <div class="box">
+      <h1>We Are Also Available In The Apps</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, sint.</p>
+
+      <div>
+        <img src="./assets/images/playstore.png" alt="playstore logo">
+        <img src="./assets/images/ios-app.png" alt="ios-app logo">
+      </div>
+    </div>
+    </div>
+    </div>
+ </div>
+<!-- Recover App -->
+<!-- Feedback-->
+ <div class="feedback" id="feedback">
+    <div class="container">
+        <h1 data-aos="fade-up" data-aos-duration="1000">Umpan Balik Dari <br> Pelanggan Kami
+        </h1>
+        <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+    <div class="feedback-box">
+        <div class="box">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi perspiciatis aut, incidunt, alias sapiente assumenda,
+             consequuntur ullam perferendis fugiat eligendi fugit cum dolorem qui eos dolor rerum! Velit,
+              cumque architecto.</p>
+        <div class="people">
+        <img src="./assets/images/luvia 1.jpeg" alt="feedback-people"/>
+                <div class="people-desc">
+                <h3>Luvia maulida 1</h3>
+                <p>Pembeli 1</p>
+                </div>
+          </div>
+        </div>
+        <div class="box">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi perspiciatis aut, incidunt, alias sapiente assumenda,
+             consequuntur ullam perferendis fugiat eligendi fugit cum dolorem qui eos dolor rerum! Velit,
+              cumque architecto.</p>
+        <div class="people">
+        <img src="./assets/images/Luvia 2.jpeg" alt="feedback-people"/>
+                <div class="people-desc">
+                <h3>Luvia amaulida 2</h3>
+                <p>Pembeli 2</p>
+                </div>
+          </div>
+        </div>
+        <div class="box">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi perspiciatis aut, incidunt, alias sapiente assumenda,
+             consequuntur ullam perferendis fugiat eligendi fugit cum dolorem qui eos dolor rerum! Velit,
+              cumque architecto.</p>
+        <div class="people">
+        <img src="./assets/images/luvia 3.jpeg" alt="feedback-people"/>
+                <div class="people-desc">
+                <h3>Luvia Maulida 3</h3>
+                <p>Pembeli 3</p>
+                </div>
+          </div>
+        </div>
+        <div class="box">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi perspiciatis aut, incidunt, alias sapiente assumenda,
+             consequuntur ullam perferendis fugiat eligendi fugit cum dolorem qui eos dolor rerum! Velit,
+              cumque architecto.</p>
+        <div class="people">
+        <img src="./assets/images/luvia 1.jpeg" alt="feedback-people"/>
+                <div class="people-desc">
+                <h3>Luvia Maulida 4</h3>
+                <p>Pembeli</p>
+                </div>
+          </div>
+        </div>
+        <div class="box">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi perspiciatis aut, incidunt, alias sapiente assumenda,
+             consequuntur ullam perferendis fugiat eligendi fugit cum dolorem qui eos dolor rerum! Velit,
+              cumque architecto.</p>
+        <div class="people">
+        <img src="./assets/images/Luvia 2.jpeg" alt="feedback-people"/>
+                <div class="people-desc">
+                <h3>Luvia Maulida 5</h3>
+                <p>Pembeli</p>
+                </div>
+          </div>
+        </div>
+        <div class="box">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi perspiciatis aut, incidunt, alias sapiente assumenda,
+             consequuntur ullam perferendis fugiat eligendi fugit cum dolorem qui eos dolor rerum! Velit,
+              cumque architecto.</p>
+        <div class="people">
+        <img src="./assets/images/house-3.jpg" alt="feedback-people"/>
+                <div class="people-desc">
+                <h3>Luvia Maulida 6</h3>
+                <p>Pembeli</p>
+                </div>
+          </div>
+        </div>
+        <div class="box">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi perspiciatis aut, incidunt, alias sapiente assumenda,
+             consequuntur ullam perferendis fugiat eligendi fugit cum dolorem qui eos dolor rerum! Velit,
+              cumque architecto.</p>
+        <div class="people">
+        <img src="./assets/images/luvia 1.jpeg" alt="feedback-people"/>
+                <div class="people-desc">
+                <h3>Luvia Maulida 7</h3>
+                <p>Pembeli</p>
+                </div>
+          </div>
+        </div>
+        <div class="box">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi perspiciatis aut, incidunt, alias sapiente assumenda,
+             consequuntur ullam perferendis fugiat eligendi fugit cum dolorem qui eos dolor rerum! Velit,
+              cumque architecto.</p>
+        <div class="people">
+        <img src="./assets/images/Luvia 2.jpeg" alt="feedback-people"/>
+                <div class="people-desc">
+                <h3>luvia maulida 8</h3>
+                <p>Pembeli</p>
+                </div>
+          </div>
+        </div>
+        <div class="box">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi perspiciatis aut, incidunt, alias sapiente assumenda,
+             consequuntur ullam perferendis fugiat eligendi fugit cum dolorem qui eos dolor rerum! Velit,
+              cumque architecto.</p>
+        <div class="people">
+        <img src="./assets/images/luvia 3.jpeg" alt="feedback-people"/>
+                <div class="people-desc">
+                <h3>luvia maulida 9</h3>
+                <p>Pembeli</p>
+                </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="load-more">
+     <button class="load-more-btn">Load More <i class="fa-solid
+         fa-arrow-down"></i></button>
+    </div>
+
+    </div>
+ </div>
+<!-- Feedback-->
+<!-- Footer -->
+ <footer>
+    <div class="container">
+     <div class="footer-box">
+        <div class="box">
+            <h2>House</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+            <div class="footer-icon">
+             <i class="fa-brands fa-square-facebook"></i>
+             <i class="fa-brands fa-square-x-twitter"></i>
+             <i class="fa-brands fa-square-reddit"></i>
+             <i class="fa-brands fa-square-instagram"></i>
+             <i class="fa-brands fa-linkedin"></i>
+            </div>
+        </div>
+        <div class="box">
+         <h3>Menu</h3>
+         <a href="#">Branda</a>
+         <a href="#">Produk Kami</a>
+         <a href="#">Produk Terlaris</a>
+         <a href="#">Layanan</a>
+         <a href="#">Playanan Customer</a>
+        </div>
+        <div class="box">
+            <h3>Company</h3>
+            <a href="#">Blog</a>
+            <a href="#">Shopping</a>
+            <a href="#">Brochure</a>
+        </div>
+        <div class="box">
+            <h3>Contact Us</h3>
+            <p><i class="fa-solid fa-envelope"></i>lufiamaulida@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>(058) - 4169 - 3401</p>
+            <p><i class="fa-solid fa-location-dot"></i>Kota Dewa, Bahuga, Way Kanan</p>
+        </div>
+     </div>
+    </div>
+ </footer>
+<!-- Footer -->
+
+<!-- Copyright -->
+ <div class="copyright">
+  <p>&copy; Copyright 2024 by <span>Ngoding Mastery</span>,All Rights Reserved</p>
+ </div>
+<!-- Copyright -->
+
+<!-- JS -->
+ <script src="./dist/JS/scrib.js"></script>
+<!-- Swiper JS--> 
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        breakpoints: {
+            575: {
+                slidesPerView: 2,
+                spaceBetween: 40,
+            },
+            1024: {
+                slidesPerView: 3,
+                spaceBetween: 50,
+            },
+        },
+    });
+</script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</body>
+</html>
